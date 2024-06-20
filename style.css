@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+:root {
+   
+    --black: #000000;
+    --white:#ffff;
+    --gray:#6C6C6C;
+    --pink:#F496D1;
+    --blue:#3F87F5;
+  }
+
+
+
+.black{
+    color: var(--black);
+}
+
+.white{
+    color: var(--white);
+}
+.gray{
+    color: var(--gray);
+}
+.pink{
+    color: var(--pink);
+}
+.blue{
+    color: var(--blue);
+}
+
+
+.card-btn{
+    background-color: var(--pink);
+}
+.hot-cart{
+    border-radius: 12px;
+    box-shadow: 0px 0px 3px 2px #f5eeee;
+    border-radius: 8px;
+}
+   
+.client-card{
+        box-shadow: 0px 0px 3px 2px #f5eeee;
+        border-radius: 8px;
+}
+footer{
+    background-color:var(--black) ;
+}
